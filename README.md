@@ -48,6 +48,7 @@ The project was implemented using the following libraries:
 The dataset used consists of F1 track coordinates for each location where a race is held. Each entry specifies the latitude and longitude of a specific F1 track. The travel route aims to start from Bahrain and end in Abu Dhabi, covering all other F1 tracks in an optimal sequence.
 
 Steps
+
 ***1. Haversine Distance Calculation:***
 
 Using the Haversine formula, we calculated the distance between each pair of F1 tracks, measuring the shortest "great-circle" distance on Earth's surface.
@@ -94,13 +95,13 @@ The output of the code includes:
 If you calculate the distance between all 24 tracks by air according to the 2024 season's calendar of Formula 1, It takes approx. more than 120,000 km.
 But By using Nearest Neighbour Technique as used in this project, The Travel distance is only 68,000 km. Cutting the travel distance by nearly half.
 
-🏎️***1. Environmental Impact:***🏎️
+**1. Environmental Impact:**
 
 Reducing travel distances can significantly lower CO₂ emissions from flights, which are a major source of greenhouse gases in the logistics sector.
 This optimized travel approach promotes sustainability within the sports industry, aligning with the F1’s growing commitment to reducing environmental impact.
 This Reduced Emission saves ***Aprrox. 250 trees/person.***
 
-🏎️***2. Cost Savings:***🏎️
+**2. Cost Savings:**
 
 Minimizing the travel distance translates to reduced fuel and operational costs for F1 teams and organizers, as transportation is a substantial budget item.
 With an efficient route, teams can also minimize wear and tear on equipment, lowering maintenance costs.
@@ -110,7 +111,7 @@ Now, If used our Optimal Route, ***It costs 13,000 USD*** considering same condi
 
 This results in for a Formula 1 team of 100 travelling members saving around ***12,00,000 USD per year.***
 
-🏎️***3. Time Efficiency:***🏎️
+**3. Time Efficiency:**
 A well-planned travel route saves time, which is critical in high-paced environments like F1 where scheduling is paramount.
 Reduced travel time allows teams to dedicate more time to training, race preparation, and other critical activities, boosting overall performance.
 
